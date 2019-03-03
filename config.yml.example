@@ -1,0 +1,6 @@
+nick: 'example'
+channel: 'example'
+server: 'irc.chat.twitch.tv'
+port: 6667
+password: 'oauth:xxxxxxxxxxxxxx' #get from https://twitchapps.com/tmi/
+prefix: '>'
