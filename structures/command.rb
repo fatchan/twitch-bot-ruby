@@ -4,7 +4,7 @@ class Command
 		@name = name
 		@description = help
 	end
-	def run
+	def run(args)
 		return 'this command has no run() method'
 	end
 end

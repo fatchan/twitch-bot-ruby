@@ -2,10 +2,10 @@ require_relative '../structures/command'
 
 class Game < Command
 	def initialize()
-		super("game", "I change the game the streamer is playing")
+		super('game', 'I change the game the streamer is playing')
 	end
 	
-	def run
+	def run(args)
 		return 'This streamer is now playing something.'
 	end
 end
